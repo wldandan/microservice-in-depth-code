@@ -1,0 +1,4 @@
+#!/bin/bash
+
+set -e
+puma --port ${PORT:-8080}
